@@ -21,7 +21,7 @@ document.getElementById("SubmitBtn").onClick = console.log(submitValue);
     
 // });
 const liveTime = document.getElementById("live-time");
-liveTime.innerText = Date()
+//liveTime.innerText = Date()
 // var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 console.log(countDownDate);
 
