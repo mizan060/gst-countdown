@@ -53,11 +53,14 @@ button{
     background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 20px 50px;
+    box-sizing: border-box;
     height: auto;
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
     font-family: monospace;
     line-height: 80px;
+    word-wrap: break-word;
     user-select: none;
+    border: 1px solid olivedrab;
 }
